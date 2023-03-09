@@ -6,7 +6,16 @@
                 font-size: 20px
         &__link
             padding-left: 80px
+    .consultation
+            padding: 50px 0 50px 0
+    .title
+        &_left
+            margin-top: 20px
+            font-size: 35px
+            font-size: 26px
 @media (max-width: 991px)
+    .hiden_br
+        display: none
     .header
         &__official
             font-size: 11px
@@ -29,6 +38,23 @@
             width: 300px
             height: 50px
             margin-left: 15px
+        &_sumbit
+            width: 300px
+            height: 50px
+    .consultation
+        padding: 0
+        &__descr 
+            font-size: 18px
+            text-align: center
+    .title
+        &_left 
+            font-size: 25px
+            text-align: center
+            margin-top: 44px
+            margin-bottom: 15px
+    .form_one
+        margin-top: 15px
+        margin-left: 22px
 @media (max-width: 767px)
     .hiden
         display: none
@@ -52,9 +78,21 @@
             position: relative
             left: 50%
             transform: translate(-50%, 0)
+    .title
+        font-size: 21px
+        &_left
+            text-align: center
+    .form_one
+        margin-left: 50px
+   
+
 @media (max-width: 540px)
     .title
         font-size: 25px
+    .promo
+        &__icons
+            img
+                margin-bottom: 10px
 
 @media (max-width: 400px)
     .header
@@ -64,3 +102,27 @@
         width: 105px
         height: 22px
         font-size: 9px
+        &_main,&_sumbit
+            width: 100%
+            height: 54px
+            font-size: 13px
+            
+    .promo
+        &__header 
+            font-size: 22px
+            span
+                font-size: 14px
+        &__link
+            font-size: 12px
+            padding-left: 37px
+        &__icons
+            img
+                font-size: 12px
+    .title 
+        font-size: 22px
+    .form_one
+        margin-left: 30px
+
+@media (max-width: 330px)
+    .form_one 
+        margin-left: 0px
